@@ -1,9 +1,11 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
+		<view class="iconfont icon-tijiao">提交</view>
+		<view class="bg-main-hover font-lg animated bounce text-center animate__animated animate__flipInX">
+			12346
 		</view>
+		<view class="bg-main-hover font-lg animated bounce text-center animate__animated animate__flip">翻转</view>
+		<login></login>
 	</view>
 </template>
 
@@ -19,7 +21,7 @@
 		},
 		methods: {
 
-		}
+		},
 	}
 </script>
 
